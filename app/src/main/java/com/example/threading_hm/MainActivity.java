@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.button);
         tv = findViewById(R.id.et);
 
-        // 🔁 Click counter
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // ⏱ Timer thread - updates every 2 seconds
+
         new Thread(new Runnable() {
             @Override
             public void run() {
